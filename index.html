@@ -12,7 +12,17 @@
 
             if (pass === "TheMaster") {
                 alert( "Welcome!");
+            } else if (pass === "" || pass === null) {
+                alert( "Canceled");
+            } else {
+                alert ("Wrong Password!");
             }
+
+
+        } else if (user === "" || user === null) {
+            alert("Canceled");
+        }else {
+            alert ("Sorry, I don't know you!");
         }
         
         
@@ -21,6 +31,7 @@
     </script>
 </head>
 <body>
-    
+    <h1>Welcome to this beautiful Login Form!</h1>
+    <h2>This is absolutly useless!</h2>
 </body>
 </html>
